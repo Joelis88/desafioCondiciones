@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+     <!-- Barra de navegación sencilla para ver todos los ejercicios -->
+     <nav class="container__menu">
+        <a href="./index.html" class="nav-item">Ejercicio 1</a>
+        <a href="./ejerciciodos.html" class="nav-item">Ejercicio 2</a>
+        <a href="./ejerciciotres.html" class="nav-item">Ejercicio 3</a> 
+    </nav>
+    <!-- Ejercicio numero 3 -->
+   <h1>Ingresa el password</h1>
+   <div class="seleccion">
+    <select name="" id="select1">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <select name="" id="select2">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    <select name="" id="select3">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    
+   
+   </div>
+   <div class="boxboton">
+    <p id="mensaje"></p>
+    <button onclick="
+    select1= document.querySelector('#select1').value
+    select2= document.querySelector('#select2').value
+    select3= document.querySelector('#select3').value
+   
+   
+    if (select1==9 && select2==1 && select3==1){
+        parrafo = document.querySelector('#mensaje')
+        parrafo.innerHTML = 'password 1 es correcto'
+
+    }
+    else if(select1==7 && select2==1 && select3==4){
+        parrafo = document.querySelector('#mensaje')
+        parrafo.innerHTML = 'password 2 es correcto'
+
+    }
+    else {
+        parrafo = document.querySelector('#mensaje')
+        parrafo.innerHTML = 'password incorrecto'
+    }
+   
+    
+    
+    ">Ingresar</button>
+</div>
+    
+</body>
+</html>

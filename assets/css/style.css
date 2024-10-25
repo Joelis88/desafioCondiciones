@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #edf2f4;
+    text-decoration: none;
+    
+   
+}
+/* Barra de navegación */
+.container__menu{
+    display: flex;
+    justify-content: center; 
+    background-color: #edf2f4;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .nav-item{
+    color: white;
+    background-color: #d90429;
+    font-size: large;
+    margin: 0 15px; 
+    padding: 10px 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    transform: scale(1.1); 
+    background-color: #ef233c; 
+    border-radius: 5px;
+    
+  }
+
+h1{
+    color: #2b2d42;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* ejercicio 1 */
+.imagenTrabajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.imagenTrabajo img{
+    display: flex;
+    width: 20em;
+}
+
+/* ejercicio 2 */
+.sticker{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sticker img{
+    width: 75%;
+    margin: 10px;
+    display: flex;
+}
+.sticker input{
+    width: 60%;
+    margin: 15px;
+    display: flex;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ejercicio 3 */
+
+.seleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.seleccion select{
+    width: 3rem;
+    height: 1.5rem;
+}
+
+/* boton verificar */
+.boxboton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #d90429;
+    color: #2b2d42;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #edf2f4;
+    font-size: 1em;
+    font-weight: 550;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background: #d90429;
+    color: white;
+    font-size: 1.1em;
+  }

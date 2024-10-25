@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Js</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación sencilla para ver todos los ejercicios -->
+    <nav class="container__menu">
+        <a href="./index.html" class="nav-item">Ejercicio 1</a>
+        <a href="./ejerciciodos.html" class="nav-item">Ejercicio 2</a>
+        <a href="./ejerciciotres.html" class="nav-item">Ejercicio 3</a> 
+    </nav>
+    <!-- Ejercicio numero 1 -->
+   <h1>Agregar/Quitar borde </h1>
+    <div class="imagenTrabajo">
+        <img id="imagen-a-trabajar" src="./assets/img/Diseño sin título (1).png" alt="imagen de archivo js" onclick="
+   imagen = document.getElementById('imagen-a-trabajar')
+   if (imagen.style.border){
+    imagen.style.border = ''
+   }
+   else {
+    imagen.style.border='2px solid red'
+   }">
+
+    </div>
+   
+  
+</body>
+</html>

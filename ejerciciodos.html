@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+      <!-- Barra de navegación sencilla para ver todos los ejercicios -->
+      <nav class="container__menu">
+        <a href="./index.html" class="nav-item">Ejercicio 1</a>
+        <a href="./ejerciciodos.html" class="nav-item">Ejercicio 2</a>
+        <a href="./ejerciciotres.html" class="nav-item">Ejercicio 3</a> 
+    </nav>
+    <!-- Ejercicio numero 2 -->
+   <h1>Lleva 10 stickers</h1>
+   <div class="sticker">
+       <div class="box1">
+            <img src="./assets/img/intesamente.jpg" alt="">
+            <input id="input1" type="text">
+       </div>
+       <div class="box2">
+            <img src="./assets/img/gato.jpg" alt="">
+            <input id="input2" type="text">
+       </div>
+       <div class="box3">
+            <img src="./assets/img/perro.jpg" alt="">
+            <input id="input3" type="text">
+       </div>
+   </div>
+   <div class="boxboton">
+        <p id="parrafo"></p>
+        <button onclick="
+        input_1 = document.querySelector('#input1').value
+        inputvar1= Number(input_1)
+        input_2 = document.querySelector('#input2').value
+        inputvar2= Number(input_2)
+        input_3 = document.querySelector('#input3').value
+        inputvar3= Number(input_3)
+        a = (inputvar1 + inputvar2 + inputvar3)
+       
+       
+          if (a <=10){
+               parrafo = document.querySelector('#parrafo')
+               parrafo.innerHTML = 'llevas ' + a + ' sticker'     
+
+          }
+          else{
+               parrafo = document.querySelector('#parrafo')
+               parrafo.innerHTML = 'llevas demasiados Stickers'
+               
+          }
+
+          ">Verificar</button>
+   </div>
+   
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
